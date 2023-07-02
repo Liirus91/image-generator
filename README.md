@@ -2,7 +2,7 @@
 
 [Deploy](...)
 
-# The project used:
+# Used on the project:
 
 - **NodeJS**
-- **...**
+- **Bootstrap**
