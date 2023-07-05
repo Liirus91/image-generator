@@ -31,7 +31,8 @@ app.post('/', async (req, res) => {
       n: Number(number),
     });
 
-    res.render('index');
+    res.render('index', { images: response.data.data });
+    console.log(response.data.data);
   } catch (e) {
     res.render('index', { error: e.message });
   }
